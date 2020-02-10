@@ -13,3 +13,5 @@ This is a software engineering team generator command line application. The appl
 7. At the end you should get a console.log of your success!
 8. An HTML file should show up as "output/team.html"
 9. Open the newly created HTML file in your browser
+
+<img src="images/employee-template.png">
