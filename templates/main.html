@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: tomato;
+            height: 100px;
+            color: cornsilk;
+            padding-top: 20px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            box-shadow: 10px 10px 5px grey;
+            margin: 20px;
+            background-color: rgb(214, 214, 214);
+        }
+
+        .card-header {
+            background-color: blue;
+            color: cornsilk;
+        }
+
+        .list-group {
+            margin: 25px;
+        }
+    </style>
+    <title>Employee Summary</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="row header justify-content-center">
+            <h1>Engineering Team</h1>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <!-- Team HTML will be placed here -->
+            ${teamHTML}
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8e6f58b73d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
